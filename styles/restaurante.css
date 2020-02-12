@@ -7,28 +7,28 @@ html{
     scroll-behavior: smooth;
 }
 .image-rest{
-    background: url('./img/rest.jpg');
+    background: url('./img/espaco_montanhes.jpg');
     background-size: cover;
     height: 500px;
     background-position: center;
 }
 
 .gastronomia{
-    background: url('./img/gastronomia.jpg');
+    background: url('./img/gastronomia_montanhes.jpg');
     background-size: cover;
     height: 500px;
     background-position: center;
 }
 
 .vinhos{
-    background: url('./img/vinhos.jpg');
+    background: url('./img/vinhos_montanhes.jpg');
     background-size: cover;
     height: 500px;
     background-position: center;
 }
 
 .bar{
-    background: url('./img/bar.jpg');
+    background: url('./img/eventos_montanhes.jpg');
     background-size: cover;
     height: 500px;
     background-position: center;
