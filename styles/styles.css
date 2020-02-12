@@ -1,0 +1,94 @@
+
+body,html{
+    min-height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.image-rest{
+    background: url('./img/rest.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.gastronomia{
+    background: url('./img/gastronomia.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.vinhos{
+    background: url('./img/vinhos.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.bar{
+    background: url('./img/bar.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.text{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo{
+   width: 100%;
+   font-family: 'Hind Vadodara', sans-serif;
+  letter-spacing: 5px;
+
+  font-weight: 600 !important;
+  font-size: large !important;
+  text-transform: uppercase;
+}
+.texto p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: 'Cabin', sans-serif !important;
+    letter-spacing: 3px !important;
+    font-weight: 700;
+    font-size: 16px !important;
+    color:#a07800;
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-device-width: 999px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .text{
+      height: 350px;
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+  }
+
+  @media screen and (max-width: 470px) {
+    .text{
+      height: 400px;
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+  }
+
+  .pequeno{
+      font-size: 9px !important;
+  }
