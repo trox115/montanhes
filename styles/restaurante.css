@@ -92,3 +92,14 @@ html{
   .pequeno{
       font-size: 9px !important;
   }
+  footer {
+      color:white;
+      background:#263238 !important;
+  }
+  footer a{
+      color:white;
+  }
+  .footer-copyright{
+      color:white;
+      background:#1E282D;
+  }
