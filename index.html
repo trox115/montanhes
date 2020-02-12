@@ -23,7 +23,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/restaurante.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
       rel="stylesheet"
@@ -38,29 +39,18 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Hind+Vadodara&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cookie&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Casa Do Lago | Casamentos, Batizados e outras Festas</title>
+    <title>Restaurante Montanhês</title>
   </head>
   <body>
     <div class="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="index.html"
           ><img
             class="logozinho"
-            src="style/img/logo.png"
-            alt="Barragem do Azibo"
+            src="styles/img/logo.png"
+            alt="Logo Montanhes"
         /></a>
         <button
           class="navbar-toggler"
@@ -76,267 +66,105 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="sobrenos.html"
-                >Sobre nós <span class="sr-only">(current)</span></a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="restaurante.html">Restaurante</a>
-            </li>
-
             <li class="nav-item active">
-              <a class="nav-link" href="batizados.html">Batizados</a>
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="casamentos.html">Casamentos</a>
+              <a class="nav-link" href="#espaco">Espaço</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gastronomia">Gastronomia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vinhos">Vinhos</a>
             </li>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Eventos
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./eventos/anos.html"
-                  >Festas de anos</a
-                >
-                <a class="dropdown-item" href="./eventos/jantares.html"
-                  >Jantares de grupo</a
-                >
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="outros.html">Outros</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#bar">Bar</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Pesquisar"
-              aria-label="Search"
-            />
-            <button
-              class="btn btn-outline-success my-2 my-sm-0 rosa"
-              type="submit"
-            >
-              Pesquisar
-            </button>
-          </form>
         </div>
       </nav>
-    </div>
+      <main>
+        <div class="container-fluid p-0">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="image-rest parallax" id='espaco'></div>
+              <div class="text">
+                <div class="new">
 
-    <div class="row no-gutters">
-      <div class="col-sm-12 col-md-12 col-lg-6 zoom">
-        <div class="big-image">
-          <div class="layer centrar">
-            <div class="titulo">
-              <h2>Os nossos Casamentos</h2>
-              <p>Conheça os melhores momentos dos nossos casamentos</p>
-              <a
-                class="btn btn-outline-dark my-2 my-sm-0"
-                href="./casamentos.html"
-                role="button"
-                >Saber Mais</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-6 zoom">
-        <div class="small-image zoom">
-          <div class="titulo">
-            <h2>Wedding planning</h2>
-            <p>
-              Equipa de Wedding Planning ao vosso dispor, para que tenha o seu
-              casamento de sonho, sem se preocupar com nada
-            </p>
-            <a
-              class="btn btn-outline-dark my-2 my-sm-0"
-              href="./weddingplanning.html"
-              role="button"
-              >Saber Mais</a
-            >
-          </div>
-        </div>
-
-        <div class="layer2 zoom">
-          <div class="image-bk">
-            <div class="layer centrar">
-              <div class="titulo">
-                <h2>Destino: Azibo</h2>
-                <p>Conheça este destino fantástico e dê vida ás suas festas</p>
-                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
-                  Saber Mais
-                </button>
+                  <div class="titulo">
+                    <h5>ESPAÇO</h5>
+                  </div>
+                  <div class="texto">
+                    <p>
+                      “…Uma vez dentro, torna-se claro que entrou numa dimensão
+                      paralela, preenchida por candelabros cintilantes, um
+                      acolhedor teto de madeira e uma equipa extremamente
+                      hospitaleira.”
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- sec 2 -->
+              <div class="gastronomia parallax" id="gastronomia"></div>
+              <div class="text">
+                <div class="new">
+                  <div class="titulo">
+                    <h5>GASTRONOMIA</h5>
+                  </div>
+                  <div class="texto" >
+                    <p>
+                      “"Não há outro lugar no Porto, que mesmo remotamente,
+                      consiga celebrar e elevar cozinha portuguesa como O
+                      Paparico. Realmente um ótimo restaurante."”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Vinhos -->
+
+              <div class="vinhos parallax"  id="vinhos"></div>
+              <div class="text">
+                <div class="new">
+                  <div class="titulo">
+                    <h5>Vinhos</h5>
+                  </div>
+                  <div class="texto">
+                    <p>
+                      “...Copos irrepreensíveis, tratamento de temperaturas impecável, e uma extensa carta de vinhos com muitas coisas boas...”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- eND OF section -->
+
+              <!-- Vinhos -->
+
+              <div class="bar parallax" id="bar"></div>
+              <div class="text">
+                <div class="new">
+                  <div class="titulo">
+                    <h5>Bar</h5>
+                  </div>
+                  <div class="texto" >
+                    <p>
+                      “Destaque para o bar que dá acesso à sala de jantar, onde é possível dar vida ao epicurista que há em cada um de nós com a melhor seleção de destilados que o Porto tem para oferecer.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- eND OF section -->
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
-
-    <div class="row no-gutters">
-      <div class="col-sm-12 col-md-12 col-lg-6 zoom">
-        <div class="big-image2">
-          <div class="layer centrar">
-            <div class="titulo">
-              <h2>Contacte-nos</h2>
-              <p>Saiba mais sobre os nossos serviços. Peça-nos um orçamento</p>
-              <a
-                class="btn btn-outline-dark my-2 my-sm-0"
-                href="./contacto.html"
-                role="button"
-                >Saber Mais</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-6">
-        <div class="small-image2">
-          <div class="titulo">
-            <h2>Siga-nos nas redes sociais</h2>
-            <div class="icones">
-              <a
-                href="https://www.facebook.com/pg/casadolagofragadapegada/about/?ref=page_internal"
-                <i
-                class="fa fa-facebook"
-              ></a>
-              <a
-                href="https://www.instagram.com/fragadapegada/"
-                <i
-                class="fa fa-instagram"
-              ></a>
-              <a href="" <i class="fa fa-pinterest"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small mdb-color pt-4">
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left">
-        <!-- Footer links -->
-        <div class="row text-center text-md-left mt-3 pb-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Casa Do Lago</h6>
-            <p>
-              A Casa do Lago tem uma vista privilegiada sobre uma das 7
-              Maravilhas de Portugal : a Albufeira do Azibo, que torna este
-              espaço único de incomparável beleza. Além disso, a Casa da Lago
-              apresenta uma decoração moderna, um ambiente agradável e uma
-              gastronomia de excelência.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mt-3">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7097.990376382531!2d-6.900940040901289!3d41.583584546244985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35854246576c10ff!2sCasa%20do%20Lago%20-%20Fraga%20da%20Pegada!5e0!3m2!1spt-PT!2spt!4v1571947242037!5m2!1spt-PT!2spt"
-              width="100%"
-              height="250"
-              frameborder="0"
-              style="border:0;"
-              allowfullscreen=""
-            ></iframe>
-          </div>
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-            <p>
-              <i class="fa fa-home mr-3"></i> Santa Combinha 5340-410 Macedo de
-              Cavaleiros
-            </p>
-            <p><i class="fa fa-envelope mr-3"></i> geral@casadolago.com</p>
-            <p><i class="fa fa-phone mr-3"></i> +351 917 343 125</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Footer links -->
-
-        <hr />
-
-        <!-- Grid row -->
-        <div class="row d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-7 col-lg-8">
-            <!--Copyright-->
-            <p class="text-center text-md-left">
-              © 2019 Copyright:
-              <a href="#">
-                <strong> CodeSpider</strong>
-              </a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-5 col-lg-4 ml-lg-0">
-            <!-- Social buttons -->
-            <div class="text-center text-md-right">
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fa fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fa fa-google-plus-g"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fa fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!-- Grid row -->
-      </div>
-      <!-- Footer Links -->
-    </footer>
-    <!-- Footer -->
   </body>
 </html>

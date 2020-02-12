@@ -1,0 +1,234 @@
+
+body{
+  font-family: 'Cookie', cursive;
+  font-weight: 300;
+}
+h2{
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+p{
+  font-size: 1rem;
+}
+a{
+  font-weight: 600;
+}
+.small-image{
+  background: #fceade;
+  min-height: 50%;
+  overflow: hidden;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+.titulo{
+  text-align: center;
+  width: 70%;
+}
+.titulo2{
+  text-align: center;
+  width: 100%;
+}
+.image-bk{
+  height: 100%;
+  background-image: url("img/espaco.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+  -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+   display: flex;
+}
+.image-bk:hover{
+  background-size: 150%;
+
+}
+
+.zoom{
+  overflow: hidden;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.3);
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+}
+.layer2 {
+    position: absolute;
+
+    width: 100%;
+    height: 50%;
+
+}
+.centrar{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.big-image{
+  background-image: url("img/casamento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+  height: 600px;
+  overflow: hidden;
+}
+.big-image:hover{
+  transform:scale(1.2);
+  overflow: hidden;
+
+}
+.logozinho{
+  width: 150px;
+}
+
+.rosa{
+  color: #fceade;
+border-color: #fceade;
+}
+.rosa:hover{
+  background-color: #fceade;
+border-color: #fceade;
+color:black;
+}
+.icones{
+  margin-bottom: 10%;
+  text-align: center;
+
+
+  font-size: 2.5rem;
+}
+.icones a {
+  margin-right: 10%;
+}
+.icones a{
+  text-decoration: none;
+
+}
+
+.icones a:hover {
+  cursor:pointer;
+  color:blue;
+}
+
+.big-image2{
+  background-image: url("img/contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+  height: 300px;
+  overflow: hidden;
+}
+.big-image2:hover{
+  transform: scale(1.2);
+  overflow: hidden;
+
+}
+
+.small-image2{
+  background: #fceade;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+.page-footer p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .small-image, .small-image2{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .small-image, .small-image2{
+    height: 400px;
+  }
+}
+.section-title{
+  height: 100px;
+  background: #fceade;
+}
+.texto{
+  text-align: justify;
+}
+.texto p{
+  margin-top:5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1.25px;
+}
+
+.titulo p{
+  font-family: 'Lato', italic;
+}
+
+.texto strong{
+  font-size: 2rem;
+}
+.bg-light{
+  background: white;
+  background-color: white !important;
+}
+
+footer{
+  background: #f8f9fa;
+}
+
+.nav-item{
+  font-family: 'Hind Vadodara', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  font-size: x-small;
+}
+
+.nav-link{
+  font-weight: 300 !important;
+}
+
+.centrar2{
+  float: right;
+  border-left:1px solid #fceade;
+}
+form{
+  font-family: 'Lato', sans-serif;
+}
+.form-group input{
+    border:1px solid black;
+    border-radius:15px;
+}
+
+.form-group textarea{
+    border:1px solid black;
+    border-radius:15px;
+}
+.btn-primary{
+  background: #fceade;
+  color:black;
+}
+.cas{
+  background: url(./img/cas.jpg);
+  min-height: 300px;
+  background-attachment: fixed;
+  background: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
